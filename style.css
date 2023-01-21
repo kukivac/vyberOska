@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: bisque;
+}
+
+.app-container {
+    background-color: white;
+    border: 1px solid black;
+    box-shadow: 5px 5px 0 0 rgba(0, 0, 0, 0.75);
+    padding: 10px;
+}
+
+.header-container {
+    background-color: bisque;
+    color: brown;
+    padding: 4px;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+}
+
+.content-container {
+    display: flex;
+    flex-flow: row;
+}
+
+.content-container > div {
+    width: 50%;
+}
+
+.right-column > form {
+    display: flex;
+    flex-flow: column;
+}
+.image-os{
+    max-width: 50px;
+    max-height: 50px;
+}
